@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i" type="text/css" media="all">
+  <head>
+    <title>HaileyAndFischer.com</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <h1>
+          Hailey & Fischer <br />
+          Are Getting Married!
+        </h1>
+        <div class="content">
+          <div class="inner">
+            <p>Join us for a special celebration</p>
+            <p>April 12, 2025</p>
+            <h4><a href="#rsvp" class="button secondary big">RSVP</a></h4>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#details">Details</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#registry">Registry</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- RSVP -->
+        <article id="rsvp">
+          <h2 class="major">RSVP</h2>
+          <div style="border-radius: 10px; width: 100%; overflow: hidden">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSelR1RJ7FWm6IU2hWvpRTSYYsFw_8vD5uFWZCdXVeiURMJ2Sg/viewform?embedded=true"
+              width="100%"
+              height="900"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+              >Loading…</iframe
+            >
+          </div>
+        </article>
+
+        <!-- Details -->
+        <article id="details">
+          <h2 class="major">Details</h2>
+          <span class="image main"
+            ><img src="images/trianon.jpg" alt=""
+          /></span>
+          <section>
+            <div class="table-wrapper">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Location</td>
+                    <td>21 Broadmoor Ave, Colorado Springs, CO 80906</td>
+                  </tr>
+                  <tr>
+                    <td>Date</td>
+                    <td>April 12, 2025</td>
+                  </tr>
+                  <tr>
+                    <td>Time</td>
+                    <td>5-11 pm</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="accordion" id="accordionFAQ">
+              <button
+              id="parking"
+                onclick="myFunction('Demo1'); changeIcon('parking');"
+                class="w3-block w3-left-align brzero icon solid fa-plus"
+              >
+                How is the parking?
+              </button>
+
+              <div
+                id="Demo1"
+                class="w3-container w3-hide w3-border w3-animate-opacity accordion-panel"
+              >
+                Good! The wedding is at a school which has a full parking lot.
+                Please plan to have a ride share if you are going to drink.
+              </div>
+
+              <button
+              id="inside"
+                onclick="myFunction('Demo3'); changeIcon('inside');"
+                class="w3-block w3-left-align brzero icon solid fa-plus"
+              >
+                Is it inside or outside?
+              </button>
+
+              <div
+                id="Demo3"
+                class="w3-container w3-hide w3-border w3-animate-opacity accordion-panel"
+              >
+                Weather permitting, the ceremony will be outside and the
+                reception will be inside.
+              </div>
+
+              <button
+              id="bar"
+                onclick="myFunction('Demo4'); changeIcon('bar');"
+                class="w3-block w3-left-align brzero icon solid fa-plus"
+              >
+                Will there be an open bar?
+              </button>
+
+              <div
+                id="Demo4"
+                class="w3-container w3-hide w3-border w3-animate-opacity accordion-panel"
+              >
+                Drinks are on us. There will be self-serve signature cocktails,
+                beer, and wine. We will also provide non-alcoholic beverages.
+              </div>
+
+              <button
+              id="plus1"
+                onclick="myFunction('Demo2'); changeIcon('plus1');"
+                class="w3-block w3-left-align brzero icon solid fa-plus"
+              >
+                Do I get a plus one?
+              </button>
+
+              <div
+                id="Demo2"
+                class="w3-container w3-hide w3-border w3-animate-opacity accordion-panel"
+              >
+                If it was included on your invite, then yes! We have a smaller
+                venue and are limited on space.
+              </div>
+
+              <button
+              id="wear"
+                onclick="myFunction('Demo5'); changeIcon('wear');"
+                class="w3-block w3-left-align brzero icon solid fa-plus"
+              >
+                What should I wear?
+              </button>
+
+              <div
+                id="Demo5"
+                class="w3-container w3-hide w3-border w3-animate-opacity accordion-panel"
+              >
+                "Dressy Casual." Feel free to look nice but be comfortable. Some
+                examples are sundresses or a button down shirt with nice pants.
+                Please no blue jeans or white dresses.
+              </div>
+
+              <script>
+                function myFunction(id) {
+                  var x = document.getElementById(id);
+                  if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                  } else {
+                    x.className = x.className.replace(" w3-show", "");
+                  }
+                }
+
+                function changeIcon(id) {
+                  var x = document.getElementById(id);
+                  if (x.className.indexOf("fa-plus") == -1) {
+                    x.className += " fa-plus";
+                  } else {
+                    x.className = x.className.replace(" fa-plus", " fa-minus");
+                  }
+                }
+              </script>
+            </div>
+          </section>
+        </article>
+
+        <!-- Work -->
+        <article id="story">
+          <h2 class="major">Our Story</h2>
+          <span class="image main"
+            ><img src="images/TimesSquare.jpg" alt=""
+          /></span>
+          <p>
+            We first met in 2017, while both working at Cracker Barrel. In June
+            2019 a group of us coworkers began hanging out weekly. Many fun
+            nights later we go on our first date in November 2019. By March, we
+            were moving in together (and with our best friends too)!
+          </p>
+          <p>
+            We went on road trips, quit our restaurant jobs, and finished
+            school. We both started working in fields we were more passionate
+            about. Hailey started in early childhood education and Fischer in software
+            engineering. We lived in a small apartment for a year with just us
+            and our cat Archie. After that, we rented our house and immediately got our
+            dog, Callie.
+          </p>
+          <p>
+            We traveled to Mexico, the United Kingdom, and Ireland. Our love of
+            travel led to the idea to take turns planning surprise trips for
+            each other. Hailey went first, planning a whole secret trip to
+            California where we went to San Diego, Los Angeles, and Hailey's
+            home town Simi Valley. And Disneyland! Fischer thought here of his
+            plan to propose in New York City for his turn. Eight months later,
+            we were in Central Park by ourselves on the shore of The Lake.
+            Fischer got down on one knee and pulled out the ring.
+          </p>
+        </article>
+
+        <!-- About -->
+        <article id="photos">
+          <h2 class="major">Photos</h2>
+          <span class="image main"
+            ><img src="images/24-5-SandDunes.jpg" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="images/24-2-IceCastles.jpg" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="images/24-1-BrooklynBridge.jpg" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="images/24-1-CentralPark.jpg" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="images/23-12-Christmas.jpg" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="images/23-9-Rockies.jpg" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="images/23-5-Coaster.jpg" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="images/23-5-Disney.jpg" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="images/22-5-Dublin.jpg" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="images/22-5-London.jpg" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="images/21-10-Halloween.jpg" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="images/21-7-CrestedButte.jpg" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="images/21-5-Mexico.jpg" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="images/20-8-BlackCanyon.jpg" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="images/20-6-Estes.jpg" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="images/20-2-pulpit.jpg" alt=""
+          /></span>
+        </article>
+
+        <!-- About -->
+        <article id="registry">
+          <h2 class="major">Registry</h2>
+          <span class="image main"><img src="images/italy.jpg" alt="" /></span>
+          <p>We're planning to go to Italy for our honeymoon. Here's a link to Hailey's Venmo if you'd like to contribute to our honeymoon fund so we can get all the pasta and wine!</p>
+          <div class="flex justify-content-between">
+            <div style="text-align: center; padding-bottom: 20px;">
+              <a
+                href="https://www.venmo.com/Hailey-Merrill-6"
+                class="button secondary"
+                >Honeymoon Fund</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <!-- Contact -->
+        <article id="contact">
+          <h2 class="major">Registry</h2>
+          <form method="post" action="#">
+            <div class="fields">
+              <div class="field half">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="field half">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4"></textarea>
+              </div>
+            </div>
+            <ul class="actions">
+              <li>
+                <input type="submit" value="Send Message" class="primary" />
+              </li>
+              <li><input type="reset" value="Reset" /></li>
+            </ul>
+          </form>
+          <ul class="icons">
+            <li>
+              <a href="#" class="icon brands fa-twitter"
+                ><span class="label">Twitter</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands fa-facebook-f"
+                ><span class="label">Facebook</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands fa-instagram"
+                ><span class="label">Instagram</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands fa-github"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+          </ul>
+        </article>
+
+        <!-- Elements -->
+        <article id="elements">
+          <h2 class="major">FAQ</h2>
+
+          <section>
+            <h3 class="major">Text</h3>
+            <p>
+              This is <b>bold</b> and this is <strong>strong</strong>. This is
+              <i>italic</i> and this is <em>emphasized</em>. This is
+              <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+              This is <u>underlined</u> and this is code:
+              <code>for (;;) { ... }</code>. Finally,
+              <a href="#">this is a link</a>.
+            </p>
+            <hr />
+            <h2>Heading Level 2</h2>
+            <h3>Heading Level 3</h3>
+            <h4>Heading Level 4</h4>
+            <h5>Heading Level 5</h5>
+            <h6>Heading Level 6</h6>
+            <hr />
+            <h4>Blockquote</h4>
+            <blockquote>
+              Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
+              sagittis eget tempus euismod. Vestibulum ante ipsum primis in
+              faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat
+              ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
+              faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.
+            </blockquote>
+            <h4>Preformatted</h4>
+            <pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+          </section>
+
+          <section>
+            <h3 class="major">Lists</h3>
+
+            <h4>Unordered</h4>
+            <ul>
+              <li>Dolor pulvinar etiam.</li>
+              <li>Sagittis adipiscing.</li>
+              <li>Felis enim feugiat.</li>
+            </ul>
+
+            <h4>Alternate</h4>
+            <ul class="alt">
+              <li>Dolor pulvinar etiam.</li>
+              <li>Sagittis adipiscing.</li>
+              <li>Felis enim feugiat.</li>
+            </ul>
+
+            <h4>Ordered</h4>
+            <ol>
+              <li>Dolor pulvinar etiam.</li>
+              <li>Etiam vel felis viverra.</li>
+              <li>Felis enim feugiat.</li>
+              <li>Dolor pulvinar etiam.</li>
+              <li>Etiam vel felis lorem.</li>
+              <li>Felis enim et feugiat.</li>
+            </ol>
+            <h4>Icons</h4>
+            <ul class="icons">
+              <li>
+                <a href="#" class="icon brands fa-twitter"
+                  ><span class="label">Twitter</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-facebook-f"
+                  ><span class="label">Facebook</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-instagram"
+                  ><span class="label">Instagram</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-github"
+                  ><span class="label">Github</span></a
+                >
+              </li>
+            </ul>
+
+            <h4>Actions</h4>
+            <ul class="actions">
+              <li><a href="#" class="button primary">Default</a></li>
+              <li><a href="#" class="button">Default</a></li>
+            </ul>
+            <ul class="actions stacked">
+              <li><a href="#" class="button primary">Default</a></li>
+              <li><a href="#" class="button">Default</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 class="major">Table</h3>
+            <h4>Default</h4>
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Item One</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Two</td>
+                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Three</td>
+                    <td>Morbi faucibus arcu accumsan lorem.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Four</td>
+                    <td>Vitae integer tempus condimentum.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Five</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="2"></td>
+                    <td>100.00</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+
+            <h4>Alternate</h4>
+            <div class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Item One</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Two</td>
+                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Three</td>
+                    <td>Morbi faucibus arcu accumsan lorem.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Four</td>
+                    <td>Vitae integer tempus condimentum.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Five</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="2"></td>
+                    <td>100.00</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          </section>
+
+          <section>
+            <h3 class="major">Buttons</h3>
+            <ul class="actions">
+              <li><a href="#" class="button primary">Primary</a></li>
+              <li><a href="#" class="button">Default</a></li>
+            </ul>
+            <ul class="actions">
+              <li><a href="#" class="button">Default</a></li>
+              <li><a href="#" class="button small">Small</a></li>
+            </ul>
+            <ul class="actions">
+              <li>
+                <a href="#" class="button primary icon solid fa-download"
+                  >Icon</a
+                >
+              </li>
+              <li>
+                <a href="#" class="button icon solid fa-download">Icon</a>
+              </li>
+            </ul>
+            <ul class="actions">
+              <li><span class="button primary disabled">Disabled</span></li>
+              <li><span class="button disabled">Disabled</span></li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 class="major">Form</h3>
+            <form method="post" action="#">
+              <div class="fields">
+                <div class="field half">
+                  <label for="demo-name">Name</label>
+                  <input
+                    type="text"
+                    name="demo-name"
+                    id="demo-name"
+                    value=""
+                    placeholder="Jane Doe"
+                  />
+                </div>
+                <div class="field half">
+                  <label for="demo-email">Email</label>
+                  <input
+                    type="email"
+                    name="demo-email"
+                    id="demo-email"
+                    value=""
+                    placeholder="jane@untitled.tld"
+                  />
+                </div>
+                <div class="field">
+                  <label for="demo-category">Category</label>
+                  <select name="demo-category" id="demo-category">
+                    <option value="">-</option>
+                    <option value="1">Manufacturing</option>
+                    <option value="1">Shipping</option>
+                    <option value="1">Administration</option>
+                    <option value="1">Human Resources</option>
+                  </select>
+                </div>
+                <div class="field half">
+                  <input
+                    type="radio"
+                    id="demo-priority-low"
+                    name="demo-priority"
+                    checked
+                  />
+                  <label for="demo-priority-low">Low</label>
+                </div>
+                <div class="field half">
+                  <input
+                    type="radio"
+                    id="demo-priority-high"
+                    name="demo-priority"
+                  />
+                  <label for="demo-priority-high">High</label>
+                </div>
+                <div class="field half">
+                  <input type="checkbox" id="demo-copy" name="demo-copy" />
+                  <label for="demo-copy">Email me a copy</label>
+                </div>
+                <div class="field half">
+                  <input
+                    type="checkbox"
+                    id="demo-human"
+                    name="demo-human"
+                    checked
+                  />
+                  <label for="demo-human">Not a robot</label>
+                </div>
+                <div class="field">
+                  <label for="demo-message">Message</label>
+                  <textarea
+                    name="demo-message"
+                    id="demo-message"
+                    placeholder="Enter your message"
+                    rows="6"
+                  ></textarea>
+                </div>
+              </div>
+              <ul class="actions">
+                <li>
+                  <input type="submit" value="Send Message" class="primary" />
+                </li>
+                <li><input type="reset" value="Reset" /></li>
+              </ul>
+            </form>
+          </section>
+        </article>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">HaileyAndFischer.com</p>
+      </footer>
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
