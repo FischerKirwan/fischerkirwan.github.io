@@ -9,7 +9,7 @@
   />
   <head>
     <title>HaileyAndFischer.com</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -40,6 +40,7 @@
           <ul>
             <li><a href="#details">Details</a></li>
             <li><a href="#story">Our Story</a></li>
+            <li><a href="#faq">FAQ</a></li>
             <li><a href="#photos">Photos</a></li>
             <li><a href="#registry">Registry</a></li>
           </ul>
@@ -86,21 +87,78 @@
                     <td>Time</td>
                     <td>Ceremony at 5:00 pm with reception to follow</td>
                   </tr>
+                  <tr>
+                    <td>Groomsmen</td>
+                    <td style="white-space: pre-line">Kyle Bullock (Best Man)
+                      Robert Fish
+                      Adam Goss
+                      Andy Martin
+                      Miguel Maldonado Colon
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Bridesmaids</td>
+                    <td style="white-space: pre-line">Emma Bullock (Maid of Honor) 
+                      Pam Rodriguez (Officiant)
+                      Laura Donovan 
+                      Sandy Nogin
+                      Katelin Hall 
+                      Neah Aranda 
+                    </td>
+                  </tr>
                 </tbody>
               </table>
             </div>
+          </section>
+        </article>
 
+        <!-- Our Story -->
+        <article id="story">
+          <h2 class="major">Our Story</h2>
+          <span class="image main"
+            ><img src="images/TimesSquare.jpg" alt=""
+          /></span>
+          <p>
+            We first met in 2017, while both working at Cracker Barrel. In June
+            2019 a group of us coworkers began hanging out weekly. Many fun
+            nights later we went on our first date in November 2019. By March,
+            we were moving in together (and with our best friends too)!
+          </p>
+          <p>
+            We went on road trips, quit our restaurant jobs, and finished
+            school. We both started working in fields we were more passionate
+            about. Hailey started in early childhood education and Fischer in
+            software engineering. We lived in a small apartment for a year with
+            just us and our cat Archie. After that, we rented our house and
+            immediately got our dog, Callie.
+          </p>
+          <p>
+            We traveled to Mexico, the United Kingdom, and Ireland. Our love of
+            travel led to the idea to take turns planning surprise trips for
+            each other. Hailey went first, planning a whole secret trip to
+            California where we went to San Diego, Los Angeles, and Hailey's
+            home town Simi Valley. And Disneyland! Fischer thought here of his
+            plan to propose in New York City for his turn. Eight months later,
+            we were in Central Park by ourselves on the shore of The Lake where
+            Fischer proposed. And here we are!
+          </p>
+        </article>
+
+        <!-- FAQ -->
+        <article id="faq">
+          <h2 class="major">FAQ</h2>
+          <section>
             <div class="accordion" id="accordionFAQ">
               <button
-                id="parking"
-                onclick="myFunction('Demo1'); changeIcon('parking');"
+                id="parking-btn"
+                onclick="myFunction('parking'); changeIcon('parking-btn');"
                 class="w3-block w3-left-align brzero icon solid fa-plus"
               >
                 How is the parking?
               </button>
 
               <div
-                id="Demo1"
+                id="parking"
                 class="w3-container w3-hide w3-border w3-animate-opacity accordion-panel"
               >
                 Good! The wedding is at a school which has a full parking lot.
@@ -108,15 +166,15 @@
               </div>
 
               <button
-                id="inside"
-                onclick="myFunction('Demo3'); changeIcon('inside');"
+                id="inside-btn"
+                onclick="myFunction('inside'); changeIcon('inside-btn');"
                 class="w3-block w3-left-align brzero icon solid fa-plus"
               >
                 Is it inside or outside?
               </button>
 
               <div
-                id="Demo3"
+                id="inside"
                 class="w3-container w3-hide w3-border w3-animate-opacity accordion-panel"
               >
                 Weather permitting, the ceremony will be outside and the
@@ -124,15 +182,15 @@
               </div>
 
               <button
-                id="bar"
-                onclick="myFunction('Demo4'); changeIcon('bar');"
+                id="bar-btn"
+                onclick="myFunction('bar'); changeIcon('bar-btn');"
                 class="w3-block w3-left-align brzero icon solid fa-plus"
               >
                 Will there be an open bar?
               </button>
 
               <div
-                id="Demo4"
+                id="bar"
                 class="w3-container w3-hide w3-border w3-animate-opacity accordion-panel"
               >
                 Drinks are on us. There will be self-serve signature cocktails,
@@ -140,31 +198,32 @@
               </div>
 
               <button
-                id="plus1"
-                onclick="myFunction('Demo2'); changeIcon('plus1');"
+                id="plus1-btn"
+                onclick="myFunction('plus1'); changeIcon('plus1-btn');"
                 class="w3-block w3-left-align brzero icon solid fa-plus"
               >
                 Do I get a plus one?
               </button>
 
               <div
-                id="Demo2"
+                id="plus1"
                 class="w3-container w3-hide w3-border w3-animate-opacity accordion-panel"
               >
-                Whoever is listed on your RSVP card is who is invited. Thank you for your 
-                understanding as we have a smaller venue and are limited on space.
+                If your RSVP card has a guest listed on it then yes! Thank you
+                for your understanding as we have a smaller venue and are
+                limited on space.
               </div>
 
               <button
-                id="wear"
-                onclick="myFunction('Demo5'); changeIcon('wear');"
+                id="wear-btn"
+                onclick="myFunction('wear'); changeIcon('wear-btn');"
                 class="w3-block w3-left-align brzero icon solid fa-plus"
               >
                 What should I wear?
               </button>
 
               <div
-                id="Demo5"
+                id="wear"
                 class="w3-container w3-hide w3-border w3-animate-opacity accordion-panel"
               >
                 "Dressy Casual." Feel free to look nice but be comfortable. Some
@@ -195,39 +254,7 @@
           </section>
         </article>
 
-        <!-- Work -->
-        <article id="story">
-          <h2 class="major">Our Story</h2>
-          <span class="image main"
-            ><img src="images/TimesSquare.jpg" alt=""
-          /></span>
-          <p>
-            We first met in 2017, while both working at Cracker Barrel. In June
-            2019 a group of us coworkers began hanging out weekly. Many fun
-            nights later we went on our first date in November 2019. By March, we
-            were moving in together (and with our best friends too)!
-          </p>
-          <p>
-            We went on road trips, quit our restaurant jobs, and finished
-            school. We both started working in fields we were more passionate
-            about. Hailey started in early childhood education and Fischer in
-            software engineering. We lived in a small apartment for a year with
-            just us and our cat Archie. After that, we rented our house and
-            immediately got our dog, Callie.
-          </p>
-          <p>
-            We traveled to Mexico, the United Kingdom, and Ireland. Our love of
-            travel led to the idea to take turns planning surprise trips for
-            each other. Hailey went first, planning a whole secret trip to
-            California where we went to San Diego, Los Angeles, and Hailey's
-            home town Simi Valley. And Disneyland! Fischer thought here of his
-            plan to propose in New York City for his turn. Eight months later,
-            we were in Central Park by ourselves on the shore of The Lake where Fischer proposed.
-            And here we are!
-          </p>
-        </article>
-
-        <!-- About -->
+        <!-- Photos -->
         <article id="photos">
           <h2 class="major">Photos</h2>
           <span class="image main"
@@ -288,21 +315,35 @@
           <h2 class="major">Registry</h2>
           <span class="image main"><img src="images/italy.jpg" alt="" /></span>
           <div>
-            We're planning to go to Italy and Greece for our honeymoon! Our Honeymoon Fund link goes to 
-            Hailey's venmo or we also have an Amazon Registry if you would like to look at that. 
-            Please do not feel obligated to get us anything, we are just excited to spend our special day with you!
+            We're planning to go to Italy and Greece for our honeymoon! Our
+            Honeymoon Fund link goes to Hailey's venmo or we also have an Amazon
+            Registry if you would like to look at that. Please do not feel
+            obligated to get us anything, we are just excited to spend our
+            special day with you!
           </div>
-          <div class="flex justify-content-between" style="text-align: center;">
-            <div style="padding: 1rem; display: inline-block; vertical-align: middle;">
+          <div class="flex justify-content-between" style="text-align: center">
+            <div
+              style="
+                padding: 1rem;
+                display: inline-block;
+                vertical-align: middle;
+              "
+            >
               <a
                 href="https://www.venmo.com/Hailey-Merrill-6"
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
                 class="button secondary"
                 >Honeymoon Fund</a
               >
             </div>
-            <div style="padding: 1rem; display: inline-block; vertical-align: middle;">
+            <div
+              style="
+                padding: 1rem;
+                display: inline-block;
+                vertical-align: middle;
+              "
+            >
               <a
                 href="https://www.amazon.com/wedding/registry/2SQDZJ6KK1SX5"
                 target="_blank"
