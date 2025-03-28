@@ -1693,6 +1693,36 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
-
+		  
+		  #clockdiv{
+			opacity: 0.75;
+			margin-bottom: 0;
+			text-transform: uppercase;
+			text-align: center;
+		  }
+		  
+		  #clockdiv > div{
+			letter-spacing: 0.1rem;
+			font-size: 0.8rem;
+			padding: 5px;
+			background-color: rgba(202, 27, 27, 0);
+			border-radius: 3px;
+			display: inline-block;
+			min-width: 20%;
+			white-space: nowrap;
+			overflow: hidden;
+		  }
+		  
+		  #clockdiv div > span{
+			font-size: 1.6rem;
+			letter-spacing: 0.1rem;
+			padding: 5px;
+			border-radius: 3px;
+			min-width: 20%;
+			display: inline-block;
+			white-space: nowrap;
+			overflow: hidden;
+		  }
+		  
 
 		
