@@ -235,6 +235,60 @@
                 Please no blue jeans or white dresses.
               </div>
 
+              <button
+              id="go-btn"
+              onclick="myFunction('go'); changeIcon('go-btn');"
+              class="w3-block w3-left-align brzero icon solid fa-plus"
+            >
+              Where do I go?
+            </button>
+
+            <div
+              id="go"
+              class="w3-container w3-hide w3-border w3-animate-opacity accordion-panel"
+            >
+              Our venue is the Trianon building at Colorado Springs School.
+              It is on the East side of the campus. You can use the address below or search "Trianon Colorado Springs" in Google Maps which will take you to the correct building. 
+              Please enter through the front of the building, pictured below. 
+
+              <br><br> 21 Broadmoor Ave, Colorado Springs, CO 80906
+
+              <span class="image main"
+              ><img src="images/trianon.jpg" alt=""
+            /></span>
+            </div>
+
+            <button
+            id="arrive-btn"
+            onclick="myFunction('arrive'); changeIcon('arrive-btn');"
+            class="w3-block w3-left-align brzero icon solid fa-plus"
+          >
+            When should I arrive?
+          </button>
+
+          <div
+            id="arrive"
+            class="w3-container w3-hide w3-border w3-animate-opacity accordion-panel"
+          >
+            We reccommend showing up 15-20 minutes before the start of the ceremony, which is planned to begin at 5pm. 
+          </div>
+
+
+          <button
+          id="reception-btn"
+          onclick="myFunction('reception'); changeIcon('reception-btn');"
+          class="w3-block w3-left-align brzero icon solid fa-plus"
+        >
+          How late does the reception go?
+        </button>
+
+        <div
+          id="reception"
+          class="w3-container w3-hide w3-border w3-animate-opacity accordion-panel"
+        >
+        We aim to have our last song at 10:45 pm, and exit the venue by 11pm.
+        </div>
+
               <script>
                 function myFunction(id) {
                   var x = document.getElementById(id);
@@ -261,6 +315,29 @@
         <!-- Photos -->
         <article id="photos">
           <h2 class="major">Photos</h2>
+          <p>
+            Come back to this page after we get back from our honeymoon for a link to our professional photos.
+          </p>
+          <div>
+            If you want to share your own photos from the wedding with us, click below to upload them to our Google Photos Wedding Album!
+          </div>
+          <div class="flex justify-content-between" style="text-align: center">
+            <div
+              style="
+                padding: 1rem;
+                display: inline-block;
+                vertical-align: middle;
+              "
+            >
+              <a
+                href="https://photos.app.goo.gl/E7x6wKeaJ4mpAed66"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button secondary"
+                >Upload your photos</a
+              >
+            </div>
+          </div>
           <span class="image main"
             ><img src="images/24-5-SandDunes.jpg" alt=""
           /></span>
